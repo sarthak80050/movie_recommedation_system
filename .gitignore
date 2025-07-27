@@ -1,4 +1,11 @@
-# Virtual environment
+# Large model files
+similarity.pkl
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# Virtual environment (from previous issue)
 venv/
 env/
 .venv/
@@ -6,15 +13,6 @@ env/
 # Python cache
 __pycache__/
 *.pyc
-*.pyo
 
-# Jupyter Notebook checkpoints
+# Jupyter checkpoints
 .ipynb_checkpoints/
-
-# IDE files
-.vscode/
-.idea/
-
-# OS files
-.DS_Store
-Thumbs.db
